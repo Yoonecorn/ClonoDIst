@@ -1,0 +1,21 @@
+[package]
+name = "clonodist-cli"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license-file = "../../LICENSE"
+description = "ClonoDist: command-line interface and parameter validation"
+
+[[bin]]
+name = "clonodist"
+path = "src/main.rs"
+
+[dependencies]
+clonodist-core = { path = "../clonodist-core" }
+clonodist-germline = { path = "../clonodist-germline" }
+clonodist-io = { path = "../clonodist-io" }
+clonodist-distance = { path = "../clonodist-distance" }
+clonodist-sparse = { path = "../clonodist-sparse" }
+clonodist-neighbors = { path = "../clonodist-neighbors" }
+serde_json.workspace = true
+clap.workspace = true

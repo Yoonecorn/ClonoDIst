@@ -1,0 +1,11 @@
+[package]
+name = "clonodist-neighbors"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license-file = "../../LICENSE"
+description = "ClonoDist: graph, neighborhood, and clustering helpers"
+
+[dependencies]
+clonodist-core = { path = "../clonodist-core" }
+clonodist-sparse = { path = "../clonodist-sparse" }

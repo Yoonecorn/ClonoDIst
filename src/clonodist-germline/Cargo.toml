@@ -1,0 +1,16 @@
+[package]
+name = "clonodist-germline"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+license-file = "../../LICENSE"
+description = "ClonoDist: reference database parsing, alleles, and cdr lookup"
+
+[dependencies]
+clonodist-core = { path = "../clonodist-core" }
+csv.workspace = true
+sha2.workspace = true
+
+[target.'cfg(target_arch = "aarch64")'.dependencies.sha2]
+workspace = true
+features = ["asm"]

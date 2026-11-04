@@ -1,0 +1,45 @@
+{
+  "schema": "clonodist.extended.mouse-trd-reference.v1",
+  "organism": "mouse",
+  "version": "IMGT-VQUEST-content-snapshot-2026-10-29",
+  "base_sha256": "1d7fcac37ad6d955b3a3f693526e36623186464aef2c528cf8e0322dc89706cd",
+  "sources": [
+    {
+      "url": "https://www.imgt.org/about/termsofuse.php",
+      "sha256": "c6f60da832255a20086021ba6b23843ade8f432676f1703de693605d24ca4bcc",
+      "bytes": 15176,
+      "license": "CC BY 4.0 (IMGT data and metadata terms snapshot)",
+      "retrieved_utc": "2026-10-29T15:03:10.085015+00:00"
+    },
+    {
+      "url": "https://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRDV.fasta",
+      "sha256": "41956333b48e440e2adeaf7b9546a2fe1f60ba7853b2027fb4e1b5067729c49c",
+      "bytes": 23357,
+      "license": "CC BY 4.0 (IMGT data and metadata terms snapshot)",
+      "retrieved_utc": "2026-10-29T15:05:29.537677+00:00"
+    },
+    {
+      "url": "https://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRDJ.fasta",
+      "sha256": "6276c6ea88f4f248fa5c37886a6194a5d6b1b47f1f0927828b4b497e8401ca34",
+      "bytes": 434,
+      "license": "CC BY 4.0 (IMGT data and metadata terms snapshot)",
+      "retrieved_utc": "2026-10-29T15:05:29.947386+00:00"
+    }
+  ],
+  "coordinate_policy": "1-based inclusive tcrdist feature-array intervals in translated gapped IMGT V-QUEST FASTA; not generic IMGT residue numbering; pmhc is a tcrdist feature",
+  "intervals": [
+    [
+      28,
+      39
+    ],
+    [
+      57,
+      66
+    ],
+    [
+      82,
+      88
+    ]
+  ],
+  "alias_policy": "only exact full canonical allele IDs; no aliases, partial names, fallback or imputation"
+}

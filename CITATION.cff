@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use ClonoDist, please cite this software and the underlying methods."
+type: software
+title: "ClonoDist"
+version: "1.0.0"
+authors:
+  - family-names: Yap
+    given-names: Yoon Sing
+    email: yoonatworkz@gmail.com
